@@ -1,0 +1,19 @@
+.price{
+    color: red;
+}
+.price span{
+    color: red;
+    font-size: 30px;
+}
+.buy-btn{
+    color: blue;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.buy-btn:hover{
+    color: red;
+    background-color: gold;
+    cursor: pointer;
+}

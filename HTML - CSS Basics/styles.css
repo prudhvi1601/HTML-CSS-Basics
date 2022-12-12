@@ -1,0 +1,100 @@
+/* descendant selector(space) */
+.item{
+    font-size: 30px;
+    color: goldenrod;
+}
+
+/* child selector(>) */
+div > p{
+    font-size: 30px;
+    color: green;
+}
+
+/* adjacent sibling selector(+) */
+p + p{
+    font-size: 30px;
+    color: red;
+}
+p + h1{
+    font-size: 20px;
+    color: green;
+}
+h1 + p{
+    font-size: 30px;
+    color: black;
+}
+
+/* general sibling selector(~) */
+
+p ~ p{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+/* pseudo class selectors */
+.btn{
+    color: red;
+    font-size: 14px;
+    background-color:lightgreen;
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    color: blue;
+    border:1px black;
+}
+
+/* .item{
+    color: green;
+    font-size: 20px;
+} */
+
+.item:link{
+    color: royalblue;
+    text-decoration: none;
+}
+.item:visited{
+    color: chartreuse;
+}
+.item:hover{
+    color: gold;
+}
+.item:active{
+    color: crimson;
+}
+input:focus{
+    outline: none;
+    border: solid gold;
+}
+
+/* Pseudo element selectors */
+.task::after{
+    content:url(./images/checked.png);
+}
+.task::first-letter{
+    color: red;
+}
+.task::first-line{
+    color: gold;
+}
+.item::first-line{
+    color: red;
+}
+
+::marker{
+    color:red;
+}
+
+/* Attribute selectors */
+input[type="text"]{
+    color: red;
+    font-size: 15px;
+}
+a[target="_blank"]{
+    background-color: yellow;
+}
+
