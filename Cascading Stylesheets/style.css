@@ -1,0 +1,84 @@
+/* *{
+    color: red ;
+}  */
+
+/* tag,pseudo element */
+p{
+    color: green;
+} 
+
+ .spec::after{
+    content: "this is content";
+    color: blue;
+} 
+ ::first-letter{
+    color:gold;
+} */
+
+
+/* class */
+ .spec{
+    color: blue;
+}
+
+/* pseudo-class */
+:hover{
+    color: green;
+}
+/* attribute */
+[href="#"]{
+    color: yellow;
+}
+
+/* id */
+#specificity{
+    color: pink;
+}
+
+/* removing underline */
+.spec{
+    text-decoration: none;
+}
+
+/* specifity of combintor selector */
+a.spec{
+    color: green;
+}
+a.spec.spec-1{
+    color: gold;
+}
+.spec{
+    font-size: 40px;
+}
+a.spec.spec-1{
+    color: orange;
+}
+a.spec.spec-2{
+    color: blue;
+}
+a.spec.spec-3{
+    color: green;
+}   
+#specificity{
+    color:green;
+}
+a#specificity{
+    color:turquoise;
+}
+/* nth child */
+ul li:nth-child(2n+1){
+    color:red;
+} */ */
+/* Inheritance */
+.inherit-sec{
+    color: green;
+    font-size: 20px;
+}
+.inherit-sec h1{
+    color: inherit !important;
+    font-size: inherit !important;
+}
+
+
+
+
