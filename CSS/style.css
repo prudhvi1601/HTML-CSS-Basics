@@ -11,9 +11,9 @@ p{
     content: "this is content";
     color: blue;
 } 
- ::first-letter{
+ /* ::first-letter{
     color:gold;
-} */
+} */ 
 
 
 /* class */
@@ -79,6 +79,38 @@ ul li:nth-child(2n+1){
     font-size: inherit !important;
 }
 
+/* box model  & box sizing*/
+.box{
+    border: 5px solid black;
+    padding: 40px 5px 10px 25px;
+    margin: 10px 5px;
+    width: 300px;
+    height: 100px;
+    /* box-sizing: border-box; */
+}
+.box-1{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 100px;
+    /* box-sizing: border-box; */
+}
 
+/* Display:inline,block,inline-block,none */
+span{
+    display: block;
+}
 
+div{
+    display: inline-block;
+}
 
+.nav{
+    background-color: aliceblue;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 5px;
+}
